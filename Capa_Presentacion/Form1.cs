@@ -6,5 +6,10 @@ namespace Capa_Presentacion
         {
             InitializeComponent();
         }
+
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
